@@ -24,7 +24,7 @@ public class ArrayList_1__AddingObj {
 		// pring variable value
 		System.out.println(id); // 101
 		// print index value from array
-		System.out.println(ids[4]); // 106
+		System.out.println(ids[10]); // 106
 
 		// size of the array in array
 		System.out.println(ids.length);

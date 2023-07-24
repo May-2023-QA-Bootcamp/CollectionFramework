@@ -1,6 +1,7 @@
 package list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayList_CustomizedObjects {
 
@@ -20,6 +21,15 @@ public class ArrayList_CustomizedObjects {
 		arraylist.add(st1);
 		arraylist.add(st2);
 		arraylist.add(st3);
+		
+		
+		
+		
+		Iterator<May23> it=arraylist.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next().name);
+		}
+		
 		
 		
 

@@ -13,9 +13,7 @@ public class ArrayList_3_printingApproach {
 		araylist.add(102.1);// Double
 		araylist.add(110);
 		araylist.add(110);// duplicate
-		araylist.add(110);
-		araylist.add(110);
-		araylist.add("Sohag");// String
+		
 		
 		
 		System.out.println(araylist);
@@ -29,7 +27,7 @@ public class ArrayList_3_printingApproach {
 		
 		//for loop
 		
-		for(int i=0;i<7;i++) {
+		for(int i=0;i<araylist.size();i++) {
 			System.out.println(araylist.get(i));
 		}
 
