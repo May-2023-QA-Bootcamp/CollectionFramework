@@ -13,7 +13,10 @@ public class LinkedList_AddingElement_1 {
 		list.add(50);
 		list.add(60);
 		list.add(10);
-		list.add(70);
+		
+		list.addFirst(5);
+		list.add(0,70);
+		
 		
 		//print all elements
 		System.out.println("using for loop----");

@@ -12,6 +12,7 @@ public class ArrayList__4_ordered {
 		StudentList.add("Mehdi");
 		StudentList.add("Ruksana");
 		StudentList.add("Tanvir");
+		System.out.println(StudentList);
 		
 		
 		
@@ -26,6 +27,7 @@ public class ArrayList__4_ordered {
 		System.out.println(StudentList.indexOf("Ruksana"));//1
 		StudentList.set(1, "Rukshan");
 		StudentList.add(1,"Sohag");
+		
 		
 		System.out.println(StudentList.contains("Mehdi"));
 
